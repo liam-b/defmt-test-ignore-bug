@@ -13,4 +13,10 @@ mod tests {
     fn it_works() {
         assert!(true)
     }
+
+    #[ignore]
+    #[test]
+    fn it_does_not_work() {
+        assert!(false, "should be ignored")
+    }
 }
